@@ -1,0 +1,16 @@
+group 'FannCapcha'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'net.java.dev.jna:jna:4.2.2'
+    compile 'com.github.jjYBdx4IL.nn.fannj:fannj:0.7.1'
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.7.2'
+
+}
